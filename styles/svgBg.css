@@ -1,0 +1,30 @@
+.banner {
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+  height: 100vh;
+  display: grid;
+  align-items: space-between;
+  gap: 10px;
+}
+.banner h1 {
+  padding: 100px 10px;
+  font-size: calc(2rem + 2vw);
+}
+.banner .anim {
+  margin-top: auto;
+  display: grid;
+  place-content: center;
+}
+
+.svg-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -10;
+  height: max(450px, 70vh);
+  width: max(70vw, 450px);
+  transform: translate(-50%, 40%);
+}

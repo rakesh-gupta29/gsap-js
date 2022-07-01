@@ -1,0 +1,29 @@
+.banner {
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+  height: 100vh;
+  display: grid;
+  align-items: space-between;
+  gap: 10px;
+}
+.banner h1 {
+  padding: 100px 10px;
+  font-size: calc(2rem + 2vw);
+}
+.banner .anim {
+  margin-top: auto;
+  display: grid;
+  place-content: center;
+}
+.img-wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+img {
+  border-radius: 15px;
+}
